@@ -1,0 +1,10 @@
+$background-color_1: #35A29F;
+
+.outerDiv {
+	height: 100vh;
+	display: grid;
+	background-color: $background-color_1;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1.33rem;
+	justify-items: center;
+}
